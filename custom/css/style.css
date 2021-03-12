@@ -1,0 +1,106 @@
+.bg-pink-nav{
+  background-color: #e9278a;
+ 
+}
+.social-item a{
+  color: white;
+  text-decoration: none;
+
+}
+.social-item a:hover{
+  color: #eaeaea;
+  text-decoration: none;
+
+}
+.icons{
+   margin-left: 1.8rem;  
+}
+.bg-content-color{
+   color: white;
+   background-color: #ba1f6e !important;
+}
+.big-banner {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../img/alimento2.jpg') !important;
+  height: 83%;
+  margin-bottom: 0rem !important; 
+    
+  }
+.bg-card:after{
+  content:"";
+  background:rgba(234,110,178,0.5);
+  width:100%;
+  height:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:1;
+}
+.navbar{
+  padding: 0% !important;
+ 
+}
+.color-bg{
+    color: #ba1f6e !important;
+}
+.nav-link-menu {
+  padding-right: 3rem !important;
+    padding-left: 3rem !important;
+    color: #ba1f6e !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block !important;
+    padding-top: 2rem !important;
+    padding-bottom: 1.5rem !important;
+
+  border-width: .5rem;
+  border-color: rgba(0,0,0,0);
+  border-bottom-style: solid;
+}
+.nav-link-menu:hover{
+    background: #e9278b73;
+    border-width: .5rem;
+  border-color: #e9278a;
+  color: white !important;
+  border-bottom-style: solid;
+}
+.whatsapp-link {
+      position: fixed;
+      width: 70px;
+      height: 70px;
+      bottom: 60px;
+      right: 40px;
+      background-color: #25d366;
+      color: #fff;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 50px;
+      text-decoration: none;
+      box-shadow: 1px 1px 2px #888;
+      z-index: 980;
+}
+
+a.whatsapp-link :hover{
+  color: darkgreen;
+}
+.container.color {
+  max-width: 100%;
+  background-image: linear-gradient(#ba1f6e 30%,transparent 0);
+}
+.jumbotron {
+  border-radius: 0rem !important;
+}
+.jumbotron.service {
+ margin-bottom: 0;
+}
+.icon-service {
+  font-size: 70px;
+  color: #ba1f6e;
+}
+i.fab.fa-whatsapp.phone{
+  padding: 10px;
+}

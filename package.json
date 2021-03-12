@@ -1,0 +1,19 @@
+{
+  "name": "nutrifica",
+  "version": "1.0.0",
+  "description": "Web site institucional nutrifica ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Consultoria",
+    "nutrição",
+    "alimentos",
+    "controle",
+    "de",
+    "qualidade"
+  ],
+  "author": "Denise Santos de Souza",
+  "license": "ISC"
+}
