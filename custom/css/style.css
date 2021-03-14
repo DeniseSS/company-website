@@ -26,10 +26,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../../img/alimento2.jpg') !important;
-  height: 83%;
+  height: 70%;
   margin-bottom: 0rem !important; 
     
   }
+  .big-banner-two {
+    /*position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('../../img/visita.jpg') !important;
+    height: 55%;*/
+
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 70%;
+    width: 100%;
+    z-index: 0;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('../../img/visita.jpg') !important;
+    }
+
 .bg-card:after{
   content:"";
   background:rgba(234,110,178,0.5);
@@ -84,8 +103,8 @@
       z-index: 980;
 }
 
-a.whatsapp-link :hover{
-  color: darkgreen;
+a.whatsapp-link:hover{
+  color: darkgreen!important;
 }
 .container.color {
   max-width: 100%;
@@ -103,4 +122,34 @@ a.whatsapp-link :hover{
 }
 i.fab.fa-whatsapp.phone{
   padding: 10px;
+}
+.form-content{
+  background-color: rgba(255, 255, 255, 0.3)!important;
+  border-radius: 10px;
+}
+.btn-custom{
+  text-align: center;
+  border-color: #ba1f6e;
+  color: white;
+  border-width: medium;
+  background-color: transparent;
+
+}
+.btn-custom:hover{
+  text-align: center;
+ background-color: #ba1f6e;
+ color: white
+}
+
+.textbox{
+  border: 2px #ba1f6e !important;
+}
+.textbox :hover{
+  box-shadow: 0 0 1em  #ba1f6e;
+}
+
+@media screen and (min-width: 250px) and (max-width: 900px) {
+.image-service{
+  width: 90% !important;
+}
 }
